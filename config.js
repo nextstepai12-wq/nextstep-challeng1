@@ -8,7 +8,7 @@ window.NS_CONFIG = {
   END:   '2026-10-08T20:00:00+03:00',  // الخميس 8 أكتوبر 8 مساءً: نهاية التحدّي وإعلان النتائج
   LINKS: {
     member: 'https://nextstepai12-wq.github.io/nextstep-membership-cards',
-    wa: 'https://chat.whatsapp.com/FUKJyg2x6ToGWJq1hQ6iTa?s=cl&p=a&mlu=4&ilr=4',
+    wa: 'https://chat.whatsapp.com/JEzuy1JozEv0ubOZ74QXQs?s=cl&p=a&mlu=4&ilr=4',
     ig: 'https://instagram.com/nextstepai12',
     li: 'https://www.linkedin.com/in/nextstepai/'
   }
