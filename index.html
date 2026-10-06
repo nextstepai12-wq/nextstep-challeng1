@@ -276,7 +276,7 @@ details{background:var(--card);backdrop-filter:blur(10px);border:1px solid var(-
 <script>
 /* الإعدادات في ملف config.js (بيانات Supabase والتواريخ والهدف) */
 const C=window.NS_CONFIG||{},SB_URL=C.SB_URL||'',SB_KEY=C.SB_KEY||'',GOAL=C.GOAL||1000,START=new Date(C.START||'2026-10-03T00:00:00+03:00'),END=new Date(C.END||'2026-10-08T20:00:00+03:00');
-const LK=Object.assign({member:'https://nextstepai12-wq.github.io/nextstep-membership-cards',wa:'https://chat.whatsapp.com/FUKJyg2x6ToGWJq1hQ6iTa?s=cl&p=a&mlu=4&ilr=4',ig:'https://instagram.com/nextstepai12',li:'https://www.linkedin.com/in/nextstepai/'},C.LINKS||{});
+const LK=Object.assign({member:'https://nextstepai12-wq.github.io/nextstep-membership-cards',wa:'https://chat.whatsapp.com/JEzuy1JozEv0ubOZ74QXQs?s=cl&p=a&mlu=4&ilr=4',ig:'https://instagram.com/nextstepai12',li:'https://www.linkedin.com/in/nextstepai/'},C.LINKS||{});
 
 const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const demo=!SB_URL, sb=demo?null:supabase.createClient(SB_URL,SB_KEY);
